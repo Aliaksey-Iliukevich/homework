@@ -11,17 +11,14 @@
 
 <style scoped>
 .button {
-    border: none;
-    border-radius: 10px;
-    background: var(--gradient);
-    padding: 14px;
-    font-family: var(--font);
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--primary);
+    width: 335px;
+    height: 68px;
+    font-family: var(--button-font);
+    background-color: var(--color-primary);
+    border-radius: 100px;
+    padding: 16px 10px;
+    font-size: 24px;
+    font-weight: 400;
     cursor: pointer;
-}
-.button:hover{
-    background: var(--gradient-inverted);
 }
 </style>
